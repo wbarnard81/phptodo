@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+}
+.noCss {
+  width: 50vw;
+}
+.withCss {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  background-color: #f1f1f1;
+  font-size: 20px;
+}
+
+.withCss .container {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.withCss input[type="text"] {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 20px;
+  border: solid #1f97ff 1px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+.withCss input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.withCss .btn {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #1f97ff;
+  color: white;
+}
+
+.withCss .btn:hover {
+  background-color: #0289ff;
+}
+
+.withCss .btnDelete {
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f1f1f1;
+  margin-left: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.withCss .done {
+  text-decoration-line: line-through;
+  color: rgb(26, 90, 32);
+}

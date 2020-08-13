@@ -1,0 +1,17 @@
+{
+    "Create PHP Crash course": {
+        "completed": true
+    },
+    "Buy Monitor": {
+        "completed": false
+    },
+    "One more todo": {
+        "completed": true
+    },
+    "Buy a new car.": {
+        "completed": false
+    },
+    "Cut the grass": {
+        "completed": false
+    }
+}
